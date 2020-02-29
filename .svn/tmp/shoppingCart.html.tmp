@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>购物车</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/shoppingCart.css">
+    <link rel="stylesheet" href="./css/slide.css">
+    <script src="./js/jquery.js"></script>
+    <script src="./js/common.js"></script>
+    <script src="./js/tyslide.js"></script>
+    <script src="./js/webSite.js"></script>
+    <script src="./js/shoppingCart.js"></script>
+</head>
+
+<body>
+
+    <!-- 顶部 -->
+    <div id="header">
+        <div class='wrap fontColorWhite'>
+            <p class='fr'>欢迎光临<span class='fontColor6700'>乐购</span>,请<span>登录</span><span class='fontColor6700'>
+                    注册</span></p>
+        </div>
+    </div>
+    <!-- 导航栏 -->
+    <div id='nav' class='wrap clearfix '>
+        <div class=' left fl'>
+            <div class="logo"></div>
+        </div>
+        <div class='leftTop fr'>
+            <div class='search fl'>
+                <input type="text" name="" calss='fl' placeholder="创意文具">
+                <button class='fr'></button>
+            </div>
+            <div class='shoppingCar fr'>
+                <div class='fl'>购物车3</div>
+                <div class='fr'>我的订单</div>
+            </div>
+            <ul>
+                <li>图书</li>
+                <li>电子书</li>
+                <li>原创文学</li>
+                <li>服装</li>
+                <li>运动户外</li>
+                <li>孕婴童</li>
+                <li>家居</li>
+                <li>创意文具</li>
+                <li>地方特产</li>
+                <li>海外购</li>
+                <li>电器城</li>
+            </ul>
+        </div>
+    </div>
+    <!-- 全部商品 -->
+    <div id="all">
+        <div class="wrap">
+            <p class="font20 fontColor6700">全部商品(2)</p>
+            <div class="top clearfix">
+                <div class="left fl clearfix">
+                    <input type="radio" name="1">
+                    <span class="font18 left">全选</span>
+                    <span class="font18 right fr">商品</span>
+                </div>
+                <div class="right fr clearfix">
+                    <span>操作</span>
+                    <span>小计</span>
+                    <span>数量</span>
+                    <span>单价</span>
+                </div>
+            </div>
+            <div class="bottom">
+                <div class="joinMenu clearfix">
+                    <div class="left fl">
+                        <input type="radio" class="fl">
+                        <div class="im g fl">
+                            <img src="./images/index08_05.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="right clearfix fr">
+                        <span class="fl font16">从你的全世界路过</span>
+                        <div class="right fr clearfix">
+                            <span class=" price fl">41.00</span>
+                            <div class="fl">
+                                <button name="+">+</button><input type="text" name="num" value="1" disabled><button
+                                    name="-">-</button>
+                            </div>
+                            <span class="prices fl">41.00</span>
+                            <div class="fl">
+                                <p class="del">删除</p>
+                                <p class="join">移到我的关注</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="joinMenu clearfix">
+                    <div class="left fl">
+                        <input type="radio" class="fl">
+                        <div class="im g fl">
+                            <img src="./images/index08_05.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="right clearfix fr">
+                        <span class="fl font16">从你的全世界路过</span>
+                        <div class="right fr clearfix">
+                            <span class=" price fl">41.00</span>
+                            <div class="fl">
+                                <button name="+">+</button><input type="text" name="num" value="1" disabled><button
+                                    name="-">-</button>
+                            </div>
+                            <span class="prices fl">41.00</span>
+                            <div class="fl">
+                                <p class="del">删除</p>
+                                <p class="join">移到我的关注</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="close clearfix">
+                    <div class="left fl clearfix">
+                        <div class="left fl clearfix">
+                            <input type="radio" name="1">
+                            <span class="font18 left">全选</span>
+                            <span class="font18 right fr">删除选中商品 </span>
+                        </div>
+                        <div class="right fr clearfix">
+                            <div class="fl"><span class="font16">已选择</span><span class="fontColor6700 font20">1</span><span
+                                    class="font16">件商品</span></div>
+                            <div class="fl r"><span class="font20">总价</span><span class="f46102 font20">41.00</span>
+                            </div>
+                        </div>
+                    </div><button class="right font20 fontColorWhite fr">去结算</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 猜你喜欢 -->
+    <div id="fond">
+        <div class="wrap">
+            <div class="top clearfix">
+                <div class="left fl font24 fff">猜你喜欢</div>
+            </div>
+            <div class="bottom clearfix">
+                <div>
+                    <img src="./images/229.png" alt="">
+                    <img src="./images/cuxiao.png" alt="">
+                    <div>
+                        <span class="font14 c333">白夜行</span>&nbsp;<span>东野</span>
+                        <p class="fontColorRed font16">推荐：
+                            <img src="./images/XX.png" alt="">
+                        </p>
+                        <p class="font16"><span class="fontColorRed">￥:38.00</span>&nbsp;
+                            <span class="c0c0c0">￥:58.00</span></p>
+                    </div>
+                </div>
+                <div>
+                    <img src="./images/229.png" alt="">
+                    <img src="./images/cuxiao.png" alt="">
+                    <div>
+                        <span class="font14 c333">白夜行</span>&nbsp;<span>东野</span>
+                        <p class="fontColorRed font16">推荐：
+                            <img src="./images/XX.png" alt="">
+                        </p>
+                        <p class="font16"><span class="fontColorRed">￥:38.00</span>&nbsp;
+                            <span class="c0c0c0">￥:58.00</span></p>
+                    </div>
+                </div>
+                <div>
+                    <img src="./images/229.png" alt="">
+                    <img src="./images/cuxiao.png" alt="">
+                    <div>
+                        <span class="font14 c333">白夜行</span>&nbsp;<span>东野</span>
+                        <p class="fontColorRed font16">推荐：
+                            <img src="./images/XX.png" alt="">
+                        </p>
+                        <p class="font16"><span class="fontColorRed">￥:38.00</span>&nbsp;
+                            <span class="c0c0c0">￥:58.00</span></p>
+                    </div>
+                </div>
+                <div>
+                    <img src="./images/229.png" alt="">
+                    <img src="./images/cuxiao.png" alt="">
+                    <div>
+                        <span class="font14 c333">白夜行</span>&nbsp;<span>东野</span>
+                        <p class="fontColorRed font16">推荐：
+                            <img src="./images/XX.png" alt="">
+                        </p>
+                        <p class="font16"><span class="fontColorRed">￥:38.00</span>&nbsp;
+                            <span class="c0c0c0">￥:58.00</span></p>
+                    </div>
+                </div>
+                <div>
+                    <img src="./images/229.png" alt="">
+                    <img src="./images/cuxiao.png" alt="">
+                    <div>
+                        <span class="font14 c333">白夜行</span>&nbsp;<span>东野</span>
+                        <p class="fontColorRed font16">推荐：
+                            <img src="./images/XX.png" alt="">
+                        </p>
+                        <p class="font16"><span class="fontColorRed">￥:38.00</span>&nbsp;
+                            <span class="c0c0c0">￥:58.00</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="adv">
+        <div class="wrap">
+            <div></div>
+        </div>
+    </div>
+    <!-- 页脚 -->
+    <div id='footer'>
+        <div class="wrap">
+            <div class='footerTop'>
+                <img src="./images/222_11.png" alt="">
+                <img src="./images/222_11.png" alt="">
+                <img src="./images/222_11.png" alt="">
+                <img src="./images/222_11.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!-- 指南 -->
+    <div id="compass">
+        <div class="wrap">
+            <ul class='oneul clearfix'>
+                <li>购物指南
+                    <ul class='twoul'>
+                        <li>购物流程</li>
+                        <li>发票制度</li>
+                        <li>账户管理</li>
+                        <li>会员优惠</li>
+                    </ul>
+                </li>
+                <li>支付方式
+                    <ul class='twoul'>
+                        <li>货到付款</li>
+                        <li>网上支付</li>
+                        <li>礼品卡支付</li>
+                        <li>银行转账</li>
+                    </ul>
+                </li>
+                <li>订单服务
+                    <ul class='twoul'>
+                        <li>订单配送查询</li>
+                        <li>订单状态说明</li>
+                        <li>自助取消订单</li>
+                        <li>自动修改订单</li>
+                    </ul>
+                </li>
+                <li>退换货
+                    <ul class='twoul'>
+                        <li>退换货政策</li>
+                        <li>自助申请退换货</li>
+                        <li>退换货进度查询</li>
+                        <li>退款方式和时间</li>
+                    </ul>
+                </li>
+                <li>商家服务
+                    <ul class='twoul'>
+                        <li>商家中心</li>
+                        <li>运营服务</li>
+                        <li>加入尾品汇</li>
+                    </ul>
+                </li>
+                <li>
+                    <img src="./images/logo_00.png" class='mt18'>
+                </li>
+            </ul>
+            <ul class='threeul clearfix'>
+                <li>公司简介</li>
+                <li>Investor Relations</li>
+                <li>网站联盟</li>
+                <li>乐购招商</li>
+                <li>机构销售</li>
+                <li>手机乐购</li>
+                <li>官方Blog</li>
+                <li>热词搜索</li>
+            </ul>
+            <p>Copyright (C) 乐购网 2004-2016, All Rights Reserved</p>
+        </div>
+    </div>
+
+</body>
+
+</html>

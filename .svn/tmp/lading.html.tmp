@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/loading.css">
+    <script src="./js/jquery.js"></script>
+    <script src="./js/common.js"></script>
+    <script src="./js/loading.js"></script>
+</head>
+
+<body>
+    <!-- 顶部 -->
+    <div id="header">
+        <div class='wrap fontColorWhite'>
+            <p class='fr'>欢迎光临<span class='fontColor6700'>乐购</span>,请<span>登录</span>/<span
+                    class='fontColor6700'>注册</span></p>
+        </div>
+    </div>
+    <!-- 登录 -->
+    <div id='loding'>
+        <div class="wrap">
+            <img src="./images/otherLogo.gif" alt="">
+            <p>欢迎登录</p>
+        </div>
+    </div>
+    <!-- 主体 -->
+    <div id="main">
+        <div class="wrap">
+            <div class='logIn'>
+                <ul class='fontColor6700 font20 fontBold clearfix'>
+                    <li class='fl active'>扫码登录</li>
+                    <li class='fr'>账户登录</li>
+                </ul>
+                <div class='sweep'>
+                    <div class='changeOne displayNone displayBlock'>
+                        <img src="./images/eqCodeShow.png" class='sweepImg1'>
+                        <img src="./images/phone.png" class='sweepImg2'>
+                    </div>
+                    <div class='changeTwo displayNone'>
+                        <p class='useName height70'>
+                            <input type="text" class='Name'>
+                            <img src="./images/people.png" alt="">
+                            <div class='del1'>x</div>
+                        </p>
+                        <p class='pdw height70'>
+                            <input type="password" >
+                            <img src="./images/lock.png" alt="">
+                            <div class='del2'>x</div>
+                        </p>
+                        <p class='wc'>
+                            <input type="checkbox">自动登录
+                            <a href="#" class='fr'>忘记密码</a>
+                        </p>
+                        <button>登&emsp;&emsp;录</button>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- 指南 -->
+    <div id="compass">
+        <div class="wrap">
+            <ul class='threeul clearfix'>
+                <li>公司简介</li>
+                <li>Investor Relations</li>
+                <li>网站联盟</li>
+                <li>乐购招商</li>
+                <li>机构销售</li>
+                <li>手机乐购</li>
+                <li>官方Blog</li>
+                <li>热词搜索</li>
+            </ul>
+            <p>Copyright (C) 乐购网 2004-2016, All Rights Reserved</p>
+        </div>
+    </div>
+</body>
+
+</html>

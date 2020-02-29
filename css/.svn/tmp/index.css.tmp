@@ -1,0 +1,604 @@
+/**
+ *               ii.                                         ;9ABH,          
+ *              SA391,                                    .r9GG35&G          
+ *              &#ii13Gh;                               i3X31i;:,rB1         
+ *              iMs,:,i5895,                         .5G91:,:;:s1:8A         
+ *               33::::,,;5G5,                     ,58Si,,:::,sHX;iH1        
+ *                Sr.,:;rs13BBX35hh11511h5Shhh5S3GAXS:.,,::,,1AG3i,GG        
+ *                .G51S511sr;;iiiishS8G89Shsrrsh59S;.,,,,,..5A85Si,h8        
+ *               :SB9s:,............................,,,.,,,SASh53h,1G.       
+ *            .r18S;..,,,,,,,,,,,,,,,,,,,,,,,,,,,,,....,,.1H315199,rX,       
+ *          ;S89s,..,,,,,,,,,,,,,,,,,,,,,,,....,,.......,,,;r1ShS8,;Xi       
+ *        i55s:.........,,,,,,,,,,,,,,,,.,,,......,.....,,....r9&5.:X1       
+ *       59;.....,.     .,,,,,,,,,,,...        .............,..:1;.:&s       
+ *      s8,..;53S5S3s.   .,,,,,,,.,..      i15S5h1:.........,,,..,,:99       
+ *      93.:39s:rSGB@A;  ..,,,,.....    .SG3hhh9G&BGi..,,,,,,,,,,,,.,83      
+ *      G5.G8  9#@@@@@X. .,,,,,,.....  iA9,.S&B###@@Mr...,,,,,,,,..,.;Xh     
+ *      Gs.X8 S@@@@@@@B:..,,,,,,,,,,. rA1 ,A@@@@@@@@@H:........,,,,,,.iX:    
+ *     ;9. ,8A#@@@@@@#5,.,,,,,,,,,... 9A. 8@@@@@@@@@@M;    ....,,,,,,,,S8    
+ *     X3    iS8XAHH8s.,,,,,,,,,,...,..58hH@@@@@@@@@Hs       ...,,,,,,,:Gs   
+ *    r8,        ,,,...,,,,,,,,,,.....  ,h8XABMMHX3r.          .,,,,,,,.rX:  
+ *   :9, .    .:,..,:;;;::,.,,,,,..          .,,.               ..,,,,,,.59  
+ *  .Si      ,:.i8HBMMMMMB&5,....                    .            .,,,,,.sMr 
+ *  SS       :: h@@@@@@@@@@#; .                     ...  .         ..,,,,iM5 
+ *  91  .    ;:.,1&@@@@@@MXs.                            .          .,,:,:&S 
+ *  hS ....  .:;,,,i3MMS1;..,..... .  .     ...                     ..,:,.99 
+ *  ,8; ..... .,:,..,8Ms:;,,,...                                     .,::.83 
+ *   s&: ....  .sS553B@@HX3s;,.    .,;13h.                            .:::&1 
+ *    SXr  .  ...;s3G99XA&X88Shss11155hi.                             ,;:h&, 
+ *     iH8:  . ..   ,;iiii;,::,,,,,.                                 .;irHA  
+ *      ,8X5;   .     .......                                       ,;iihS8Gi
+ *         1831,                                                 .,;irrrrrs&@
+ *           ;5A8r.                                            .:;iiiiirrss1H
+ *             :X@H3s.......                                .,:;iii;iiiiirsrh
+ *              r#h:;,...,,.. .,,:;;;;;:::,...              .:;;;;;;iiiirrss1
+ *             ,M8 ..,....,.....,,::::::,,...         .     .,;;;iiiiiirss11h
+ *             8B;.,,,,,,,.,.....          .           ..   .:;;;;iirrsss111h
+ *            i@5,:::,,,,,,,,.... .                   . .:::;;;;;irrrss111111
+ *            9Bi,:,,,,......                        ..r91;;;;;iirrsss1ss1111
+ */
+
+/* 导航 */
+#nav .left{
+    width: 200px;
+    height: 528px;
+    /* border: 1px solid #000; */
+    position: relative;
+    background:#efefef;
+}
+#nav .left .logo{
+    position: absolute;
+    top:-28px;
+    width: 200px;
+    height: 130px;
+    background: url(../images/LOGO.jpg) no-repeat;
+}
+#nav .left .domul{
+    margin-top: 110px;
+    /* margin-left:20px; */
+    line-height: 28px;
+}
+#nav .left .domul li{
+    padding-left: 20px;
+    border: 1px solid transparent;
+}
+#nav .left .domul li:hover{
+    border: 1px solid #ff6700;
+    border-right: 1px solid transparent;
+    width: 180px;
+    background-color: white;
+    color:#ff6700;
+    z-index: 2;
+    position: relative;
+}
+/* 二级列表 */
+#nav .left .li2 div{
+    width: 540px;
+    height: 460px;
+    background:white;
+    border: 1px solid #ff6700;
+    z-index:1;
+    position: absolute;
+    top:101px;
+    left:200px;
+    padding-left: 30px;
+    display:none;
+    padding-top: 40px;
+}
+
+#nav .left .li2 .active{
+    display:block;
+}
+.borderwhite{
+    border: 1px solid #ff6700;
+    border-right: 1px solid  white;
+}
+#nav .left .li2 li{
+
+    height: 55px;
+}
+
+
+
+
+
+
+/* 搜索框与购物车 */
+#nav .leftTop{
+    height: 84px;
+    width: 988px;
+    margin-top: 10px;
+    margin-bottom: 8px;
+
+    /* border: 1px solid #000; */
+}
+#nav .leftTop .search{
+    width: 488px;
+    margin-top: 4px;
+    margin-left: 270px;
+}
+#nav .leftTop input{
+    width: 430px;
+    height: 34px;
+    border: 2px solid #ff6700;
+    padding-left: 6px;
+}
+#nav .leftTop button{
+    width: 48px;
+    height: 38px;
+    background: #ff6700 url(../images/bgicon.png) ;
+    border:none;
+}
+#nav .shoppingCar{
+    width: 200px;
+}
+#nav .shoppingCar div{
+    margin-top: 4px;
+    line-height: 38px;
+    text-align: center;
+    width: 100px;
+    height: 38px;
+}
+#nav .shoppingCar .fl{
+    text-indent: 2em;
+    color: white;
+    background: #ff6700 url(../images/01-首页_03.png) no-repeat;
+}
+#nav .shoppingCar .fr{
+    background:#ebebeb;
+}
+
+#nav .leftTop ul{
+    width: 990px;
+}
+#nav .leftTop ul li{
+    margin-top: 14px;
+    float: left;
+    margin-left:40px;
+    font-weight: bold;
+}
+
+/* 今日推荐 */
+#recommend{
+    margin-top: 10px;
+}
+#recommend p:nth-child(2){
+    width: 1200px;
+    height: 4px;
+    background-color: #ff6700;
+}
+#recommend ul{
+    border-left:1px solid #ff6700;
+    margin-left: 12px;
+    margin-bottom: 40px;
+}
+#recommend ul li{
+    width: 195px;
+    height: 250px;
+    float: left;
+    border-bottom: 1px solid #ff6700;
+    border-right: 1px solid #ff6700 ;
+}
+/* 新书 电子书 */
+#newBook>p:nth-child(2){
+    width: 888px;
+    height: 4px;
+    background-color: #ff6700;
+}
+#newBook .left{
+    width: 236px;
+}
+#newBook .left ul{
+    background: #f9f9f9;
+    padding-bottom: 5px;
+}
+#newBook .left li{
+    float: left;
+    width: 70px;
+    margin:10px 4px;
+}
+/* table切换 */
+#newBook .bookTable img{
+    width: 158px;
+    height: 116px;
+}
+#newBook .middle{
+    width: 660px;
+    position: relative;
+
+}
+#newBook .middle .nav{
+    width: 324px;
+    height: 215px;
+    border: 1px solid #cccccc;
+}
+#newBook .middle .shoopBook li{
+    height: 216px;
+    width: 162px;
+    border-bottom: 1px solid #cccccc;
+    border-right: 1px solid #cccccc ;
+    float: left;
+}
+#newBook .middle .bookNav{
+    position: absolute;
+    top:-32px;
+    right:8px;
+}
+#newBook .middle .bookNav li{
+    height: 32px;
+    width: 100px;
+    float: left;
+    text-align: center;
+    line-height: 32px;
+}
+.shoopBook{
+    display: none;
+}
+.newBookactive{
+    background-color: #ff6700;
+    color: white;
+}
+.shoopBookactive{
+    display:block !important;
+}
+.displayNone{
+    display: none;
+}
+.displayBlock{
+    display:block;
+}
+/* 手风琴 */
+#newBook .right{
+    width: 282px;
+    border: 1px solid #cccccc;
+    height: 432px;
+    overflow: hidden;
+}
+#newBook .right .change2 span:last-child{
+    width: 120px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+#newBook .right .change1{
+    height: 42px;
+}
+
+
+
+
+
+
+/* 服装 */
+#clothing .clothingTitle{
+    margin-top: 20px;
+    height: 40px;
+    border-bottom: 4px solid #ff6700;
+}
+#clothing .clothingTitle li{
+    text-align: center;
+    height: 40px;
+    line-height: 44px;
+    width: 100px;
+}
+#clothing .clothingLeft{
+    width: 236px;
+    background: #f9f9f9;
+    height: 494px;
+    overflow: hidden;
+
+}
+#clothing .clothingLeft li{
+    width: 78px;
+    float: left;
+    text-align: center;
+    margin:10px 0;
+}
+#clothing .clothingMiddle{
+    width: 448px;
+    height: 490px;
+}
+#clothing .clothingMiddle img:last-child{
+    width: 448px;
+    height: 160px;
+}
+#clothing .clothingRight li{
+    float: left;
+}
+#clothing .clothingRight li .imgs1{
+    width: 171px;
+    height: 334px;
+}
+#clothing .clothingRight li .imgs2{
+    width: 171px;
+    height: 160px;
+}
+#clothing .clothingBottom .clothingBottomImg{
+    float: left;
+    width: 120px;
+    height: 60px;
+}
+
+
+/* 运动*/
+#stoop .clothingTitle{
+    margin-top: 20px;
+    height: 40px;
+    border-bottom: 4px solid #ff6700;
+}
+#stoop .clothingTitle li{
+    text-align: center;
+    height: 40px;
+    line-height: 44px;
+    width: 100px;
+}
+#stoop .clothingLeft{
+    width: 236px;
+    background: #f9f9f9;
+    height: 494px;
+    overflow: hidden;
+
+}
+#stoop .clothingLeft li{
+    width: 78px;
+    float: left;
+    text-align: center;
+    margin:10px 0;
+}
+#stoop .clothingMiddle{
+    width: 448px;
+    height: 490px;
+}
+#stoop .clothingMiddle img:last-child{
+    width: 448px;
+    height: 160px;
+}
+#stoop .clothingRight li{
+    float: left;
+}
+#stoop .clothingRight li .imgs1{
+    width: 171px;
+    height: 334px;
+}
+#stoop .clothingRight li .imgs2{
+    width: 171px;
+    height: 160px;
+}
+#stoop .clothingBottom .clothingBottomImg{
+    float: left;
+    width: 120px;
+    height: 60px;
+}
+
+/* 童装*/
+#children .clothingTitle{
+    margin-top: 20px;
+    height: 40px;
+    border-bottom: 4px solid #ff6700;
+}
+#children .clothingTitle li{
+    text-align: center;
+    height: 40px;
+    line-height: 44px;
+    width: 100px;
+}
+#children .clothingLeft{
+    width: 236px;
+    background: #f9f9f9;
+    height: 494px;
+    overflow: hidden;
+
+}
+#children .clothingLeft li{
+    width: 78px;
+    float: left;
+    text-align: center;
+    margin:10px 0;
+}
+#children .clothingMiddle{
+    width: 448px;
+    height: 490px;
+}
+#children .clothingMiddle img:last-child{
+    width: 448px;
+    height: 160px;
+}
+#children .clothingRight li{
+    float: left;
+}
+#children .clothingRight li .imgs1{
+    width: 171px;
+    height: 334px;
+}
+#children .clothingRight li .imgs2{
+    width: 171px;
+    height: 160px;
+}
+#children .clothingBottom .clothingBottomImg{
+    float: left;
+    width: 120px;
+    height: 60px;
+}
+/* 居家日用 */
+#everydayUse .wrap p:first-child{
+    border-bottom: 4px solid #ff6700;
+}
+#everydayUse .wrap img:nth-child(2){
+    border-left: 2px solid #cccccc;
+    border-right: 2px solid #cccccc;
+}
+#everydayUse ul li{
+    float: left;
+    border-bottom: 2px solid #cccccc;
+    border-right:1px solid #cccccc;
+}
+#everydayUse li .everydayUseimgs1{
+    width: 176px;
+    height: 337px;
+}
+/* 推广产品 */
+#goodShoop .wrap{
+    overflow: hidden;
+    position: relative;
+    height: 700px;
+}
+#goodShoop .title{
+    border-bottom: 4px solid #ff6700;
+}
+#goodShoop .title p{
+    margin-right: 960px;
+}
+
+#goodShoop .switcher{
+    width: 2500px;
+    position: absolute;
+    top:50px;
+    left:0;
+}
+#goodShoop .switcher ul{
+    width: 1200px;
+}
+#goodShoop .title li{
+    float: left;
+    border: 10px solid #cccccc;
+    border-radius:50%;
+    margin-right: 14px;
+    margin-top: 10px;
+}
+#goodShoop .bottom .bottomImgs{
+    width: 150px;
+    text-align: center;
+}
+#goodShoop .bottom{
+    margin:0 10px;
+    margin-bottom: 30px;
+}
+#goodShoop .bottom li{
+    width: 156px;
+    padding: 20px 20px 30px;
+    float: left;
+    margin: 0 20px;
+}
+#goodShoop .bottom li .comment{
+    height: 20px;
+    padding-left:30px;
+    background: url(../images/bgicon.png) -2px -84px no-repeat;
+}
+#goodShoop .bottom li:hover{
+    background: #f2f2f2;
+}
+
+/* 返回顶部 */
+#goToTop{
+    position: fixed;
+    right: 40px;
+    bottom: 10px;
+}
+/* 分享到 */
+#share{
+    height: 180px;
+    width: 140px;
+    position: fixed;
+    top:150PX;
+    right:0px;
+    /* border: 1px solid #000; */
+}
+#share img{
+    position: relative;
+}
+#share .img1{
+    top:-33px;
+    right:-102px;
+}
+#share .img2{
+    top:36px;
+    right:-59px;
+    z-index: 1;
+}
+#share .img3{
+    top:106px;
+    right:-17px;
+}
+
+#share .img4{
+    top:-65px;
+    left:102px;
+}
+/* 楼层 */
+#floor{
+    position: fixed;
+    top:100px;
+    left:0;
+    width: 75px;
+    height: 200px;
+    overflow: hidden;
+}
+#floor li{
+    position: relative;
+    color:white
+}
+#floor p{
+    position: absolute;
+    top:13px;
+    left:40px;
+}
+
+/* #floor li:nth-child(1):hover{
+    background-color: #93d56f;
+    color: white; 
+}
+#floor li:nth-child(2):hover{
+    background-color: #f55727;
+    color: white;
+}
+#floor li:nth-child(3):hover{
+    background-color: #bc9ded;
+    color: white;
+}
+#floor li:nth-child(4):hover{
+    background-color: #ff7495;
+    color: white;
+}
+#floor li:nth-child(5):hover{
+    background-color: #c3ec52;
+    color: white;
+} */
+
+/* 动态搜索 */
+#searchBox{
+    width: 100%;
+    background-color: rgba(122, 116, 116, 0.5);
+    height: 50px;
+    position: fixed;
+    top:0px;
+    right:0;
+    text-align: center;
+    border-bottom: 5px solid #ff6700;
+}
+#searchBox .wrap>div{
+    width: 900px;
+    height: 50px;
+
+}
+#searchBox .wrap>div>p{
+    color: white;
+    font-size: 20px;
+    line-height: 50px;
+    margin-left: 100px;
+}
+
+#searchBox input{
+    width: 430px;
+    height: 34px;
+    border:none;
+    padding-left: 6px;
+    margin-top: 6px;
+
+}
+#searchBox  button{
+    width: 48px;
+    height: 34px;
+    background: #fb3904 url(../images/bgicon.png) ;
+    border:none;
+    margin-top: 6px;
+}
+

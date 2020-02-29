@@ -1,0 +1,140 @@
+#loding .wrap{
+    position: relative;
+}
+#loding img:first-child{
+    height: 100px;
+    width: 245px;
+    position: absolute;
+    top:-28px;
+    left:0;
+}
+#loding p:first-of-type{
+    margin-left: 270px;
+    height: 72px;
+    line-height: 72px;
+    font-size: 30px;
+    color:#656565;
+}
+/* 主体 */
+#main{
+    background-color: #e83953;
+    margin-bottom: 50px;
+}
+#main .wrap{
+    height: 500px;
+    background: url(../images/logobg5.png) no-repeat -320px 0 ;
+    position: relative;
+}
+#main .wrap .logIn{
+    width: 350px;
+    height: 370px;
+    background: white;
+    position: absolute;
+    top: 60px;
+    right:90px;
+}
+#main .logIn ul{
+    margin: 0 10px;
+}
+#main .logIn ul li{
+    width: 165px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-bottom: 1px solid #cccccc;
+}
+#main .logIn .sweep{
+    height: 250px;
+    margin-top: 50px;
+    /* text-align: center; */
+    position: relative;
+}
+#main .logIn .sweep .changeOne img{
+    width: 147px;
+    /* height: 147px; */
+}
+#main .logIn .sweep .sweepImg1{
+    position: absolute;
+    top:14px;
+    right:100px;
+}
+#main .logIn .sweep .sweepImg2{
+    position: absolute;
+    top:0;
+    right:0;
+}
+#main .logIn .sweep .sweepImg2{
+    display: none;
+}
+.displayBlock{
+    display:block !important;
+}
+.displayNone{
+    display:none;
+}
+.active{
+    background-color:#ff6700;
+    color:white;
+
+}
+#main .logIn .sweep .changeTwo{
+    margin-left: 30px;
+    position: relative;
+}
+
+#main .logIn .sweep .useName input{
+    width: 248px;
+    height: 38px;
+    margin-bottom: 15px;
+    padding-left: 40px;
+}
+
+#main .logIn .sweep .pdw input{
+    width: 248px;
+    height: 38px;
+    margin-bottom: 15px;
+    padding-left: 40px;
+}
+#main .logIn .sweep .useName img{
+    width: 40px;
+    position: relative;
+    top:-56px;
+    left:2px;
+}
+#main .logIn .sweep .pdw img{
+    width: 40px;
+    position: relative;
+    top:-56px;
+    left:2px;
+}
+#main .wc{
+    margin-right: 20px !important;
+}
+#main .logIn .sweep .changeTwo>button{
+    width: 300px;
+    height: 40px;
+    background-color: #ff6700;
+    border: none;
+    margin-top: 20px;
+    font-size: 24px;
+    color:white;
+}
+#main .logIn .sweep .changeTwo div{
+    width: 14px;
+    height: 14px;
+    background-color: #cccccc;
+    border-radius: 50%;
+    position: relative;
+    line-height: 10px;
+    text-align: center;
+    /* display:none; */
+
+}
+#main .logIn .sweep .changeTwo .del1{
+    top:-56px;
+    right:-276px;
+}
+#main .logIn .sweep .changeTwo .del2{
+    top:-56px;
+    right:-276px;
+}

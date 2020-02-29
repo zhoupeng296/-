@@ -1,0 +1,203 @@
+
+/**
+ *               ii.                                         ;9ABH,          
+ *              SA391,                                    .r9GG35&G          
+ *              &#ii13Gh;                               i3X31i;:,rB1         
+ *              iMs,:,i5895,                         .5G91:,:;:s1:8A         
+ *               33::::,,;5G5,                     ,58Si,,:::,sHX;iH1        
+ *                Sr.,:;rs13BBX35hh11511h5Shhh5S3GAXS:.,,::,,1AG3i,GG        
+ *                .G51S511sr;;iiiishS8G89Shsrrsh59S;.,,,,,..5A85Si,h8        
+ *               :SB9s:,............................,,,.,,,SASh53h,1G.       
+ *            .r18S;..,,,,,,,,,,,,,,,,,,,,,,,,,,,,,....,,.1H315199,rX,       
+ *          ;S89s,..,,,,,,,,,,,,,,,,,,,,,,,....,,.......,,,;r1ShS8,;Xi       
+ *        i55s:.........,,,,,,,,,,,,,,,,.,,,......,.....,,....r9&5.:X1       
+ *       59;.....,.     .,,,,,,,,,,,...        .............,..:1;.:&s       
+ *      s8,..;53S5S3s.   .,,,,,,,.,..      i15S5h1:.........,,,..,,:99       
+ *      93.:39s:rSGB@A;  ..,,,,.....    .SG3hhh9G&BGi..,,,,,,,,,,,,.,83      
+ *      G5.G8  9#@@@@@X. .,,,,,,.....  iA9,.S&B###@@Mr...,,,,,,,,..,.;Xh     
+ *      Gs.X8 S@@@@@@@B:..,,,,,,,,,,. rA1 ,A@@@@@@@@@H:........,,,,,,.iX:    
+ *     ;9. ,8A#@@@@@@#5,.,,,,,,,,,... 9A. 8@@@@@@@@@@M;    ....,,,,,,,,S8    
+ *     X3    iS8XAHH8s.,,,,,,,,,,...,..58hH@@@@@@@@@Hs       ...,,,,,,,:Gs   
+ *    r8,        ,,,...,,,,,,,,,,.....  ,h8XABMMHX3r.          .,,,,,,,.rX:  
+ *   :9, .    .:,..,:;;;::,.,,,,,..          .,,.               ..,,,,,,.59  
+ *  .Si      ,:.i8HBMMMMMB&5,....                    .            .,,,,,.sMr 
+ *  SS       :: h@@@@@@@@@@#; .                     ...  .         ..,,,,iM5 
+ *  91  .    ;:.,1&@@@@@@MXs.                            .          .,,:,:&S 
+ *  hS ....  .:;,,,i3MMS1;..,..... .  .     ...                     ..,:,.99 
+ *  ,8; ..... .,:,..,8Ms:;,,,...                                     .,::.83 
+ *   s&: ....  .sS553B@@HX3s;,.    .,;13h.                            .:::&1 
+ *    SXr  .  ...;s3G99XA&X88Shss11155hi.                             ,;:h&, 
+ *     iH8:  . ..   ,;iiii;,::,,,,,.                                 .;irHA  
+ *      ,8X5;   .     .......                                       ,;iihS8Gi
+ *         1831,                                                 .,;irrrrrs&@
+ *           ;5A8r.                                            .:;iiiiirrss1H
+ *             :X@H3s.......                                .,:;iii;iiiiirsrh
+ *              r#h:;,...,,.. .,,:;;;;;:::,...              .:;;;;;;iiiirrss1
+ *             ,M8 ..,....,.....,,::::::,,...         .     .,;;;iiiiiirss11h
+ *             8B;.,,,,,,,.,.....          .           ..   .:;;;;iirrsss111h
+ *            i@5,:::,,,,,,,,.... .                   . .:::;;;;;irrrss111111
+ *            9Bi,:,,,,......                        ..r91;;;;;iirrsss1ss1111
+ */
+
+
+
+
+/* 版心 */
+.wrap{
+    width: 1200px;
+    margin:auto;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.font12{
+    font-size: 12px;
+}
+.font14{
+    font-size: 14px;
+}
+.font16{
+    font-size: 16px;
+}
+.font18{
+    font-size: 18px;
+}
+.font20{
+    font-size: 20px;
+}
+.font30{
+    font-size: 30px;
+}
+.fontColorWhite{
+    color:white;
+}
+.fontColor6700{
+    color:#ff6700 !important;
+}
+.backgroundColor6700{
+    background-color: #ff6700;
+}
+.imgsleft{
+    text-align: center;
+}
+.textCenter{
+    text-align: center;
+}
+.fontColorRed{
+    color:red;
+}
+.fontColorbfbfbf{
+    color:#bfbfbf;
+}
+.fontColor808080{
+    color:#808080;
+}
+.fontColor343434{
+    color:#343434;
+}
+.fontBold{
+    font-weight: bold;
+}
+.textDel{
+    text-decoration: line-through;
+}
+.mb4{
+    margin-bottom: 6px;
+}
+.mb10{
+    margin-bottom: 10px;
+}
+.ml10{
+    margin-left: 10px;
+}
+.mt18{
+    margin-top: 18px;
+}
+.ml8{
+    margin-left: 8px;
+}
+.mt8{
+    margin-top: 8px;
+}
+.mb20{
+    margin-bottom: 20px;
+}
+.height70{
+    height: 70px;
+}
+/* 圆圈选中效果 */
+.liactive{
+    border: 10px solid #ff6700 !important;
+}
+
+
+
+
+/* 头部 */
+#header{
+    background-color:black;
+    height: 28px;
+    line-height: 28px;
+} 
+#header p{
+    margin-right: 20px;
+}
+/* 页脚 */
+#footer{
+    height: 100px;
+    background-color: #f2f2f2;
+    border-top: 4px solid #ff6700;
+    margin-bottom: 30px;
+}
+#footer .footerTop{
+    margin:20px 0 0 300px;
+}
+#footer .footerTop img{
+    width: 130px;
+    height: 60px;
+    margin-right: 30px;
+}
+/* 指南 */
+#compass>.wrap>.oneul{
+    margin-left: 240px;
+    color:#4e4e4e;
+    margin-bottom: 30px;
+
+}
+#compass>.wrap>.oneul>li{
+    float: left;
+    margin-right: 70px;
+    /* margin-bottom: 10px; */
+    font-weight: bold;
+    text-align: center;
+}
+#compass .twoul{
+    margin-top: 10px;
+}
+#compass .twoul>li{
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+#compass .threeul{
+    margin-left: 160px;
+}
+#compass .threeul li{
+    float: left;
+    width: 120px;
+    border-right: 1px solid black;
+    text-align: center;
+}
+#compass .threeul li:last-child{
+    border-right:none;
+}
+#compass p{
+    margin: 10px 0 100px 460px;
+}

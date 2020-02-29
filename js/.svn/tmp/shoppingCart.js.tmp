@@ -1,0 +1,29 @@
+$(function(){
+    // 选中商品
+    $('#all>.wrap>.top>.left>input').click(function(){
+        $('#all>.wrap>.bottom>.joinMenu>.left>input').attr('checked',true)
+    })
+    $('#all>.wrap>.bottom>.close>.left>.left>input').click(function(){
+        $('#all>.wrap>.bottom>.joinMenu>.left>input').attr('checked',true)
+    })
+    // 删除商品
+    $('#all>.wrap>.bottom>.joinMenu>.right .del').on('click',function(){
+        $('#all>.wrap>.bottom>.joinMenu').detach();
+    })
+    // 全删商品
+    var flag=null;
+    $('#all>.wrap>.bottom>.close>.left>.left>.right').on('click',function(){
+        $('#all>.wrap>.bottom>.joinMenu>.left>input').attr('checked',flag)
+        if(flag==true){
+            $('#all>.wrap>.bottom>.joinMenu').detach();
+        }
+    })
+    // 猜你喜欢
+    $('#fond .bottom>div').hover(
+        function(){
+            $(this).css({backgroundColor:'#f2f2f2'});
+        },function(){
+            $(this).css({backgroundColor:'#fff'});
+        }
+    )
+})
